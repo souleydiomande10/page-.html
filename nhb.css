@@ -1,0 +1,238 @@
+*{
+   /* background-color: #0062ff2f;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+   /*background-color: blanchedalmond;*/
+    padding: 15px;
+    width: 100%;
+    z-index: 7;
+    text-align: center;
+    margin-top: -13px;
+}
+
+header h1{
+    text-transform: uppercase;
+    color: #ff9100;
+    /*background-color: #ccc;*/
+    font-size: 2.6rem;
+    font-weight: bold;
+    border: solid 4px #d11a1a;
+    display: inline-block;
+    padding: 2px 17px;
+    border-radius: 38px;
+}
+
+
+.biens{
+    max-width: 100%;
+    width: 1200px;
+    /*background-color: black;*/
+    position: relative;
+    margin: 10px auto;
+    height: 600px;
+}
+
+.biens img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 63%;
+    margin: 50px auto;
+    border-radius: 45%;
+    background-color:#4d74eb;
+    border-top-right-radius: 0px;
+}
+
+.biens h2{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 7%;
+    top: 47%;
+    color: #222201;
+    /*font-weight: bold;*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.biens h2 span{
+    font-weight: bold;
+    color: #006200;
+}
+
+nav{
+    position: sticky;
+    top: 71px;
+    margin: 25px auto;
+    background-color: coral;
+    z-index: 15;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: lowercase;
+    color: aqua;
+    margin-top: 9%;
+    transition: 0.5s ease-in-out;
+}
+
+ul a:hover{
+    color: #e20909;
+}
+.container{
+    background-color: #d3c3ae;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .image{
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+    border: 6px solid #ddd;
+margin-top: 20px;
+border-radius: 0.5rem;
+box-shadow: 0.1rem 0.5rem yellow;
+}
+
+
+.container .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .image img:hover{
+    transform: scale(1.5);
+    transition: all 0.4s;
+}
+
+/*main class="tilite*/
+
+main .title{
+    width: 100%;
+    max-width: 1000px;
+    margin: 75px auto;
+}
+
+section h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: #ff9100;
+}
+
+section p{
+    font-size: 2rem;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.images li{
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.imagex img{
+width: 100%;
+border: solid 3px blueviolet;
+border-radius: 3.5rem;
+}
+
+div.serv .row{
+    display: flex;
+    margin-bottom: 2rem;
+    padding: 30px;
+}
+
+div.servs-title{
+    display: flex;
+}
+
+.servs-title img{
+    width: 40px;
+    margin-right: 25px;
+}
+
+div.servs-title h3{
+    margin-top: 8%;
+    font-size: 2rem;
+    color: dodgerblue;
+}
+
+form{
+    border: solid #ddd;
+    width: 60%;
+    padding: 25px;
+    background-color: #0062ffaf;
+    border-radius: 2rem;
+}
+
+form input[type='text'],form input[type='email'],form textarea{
+    padding: 8px;
+    font-size: 1.2rem;
+    width: 100%;
+    border: solid 2px #ddd;
+    margin: 4px 0;
+}
+   
+
+form input[type='submit']{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    background-color: #fff;
+    padding: 6px 20px;
+    color: #0062ff;
+    border-radius: 2rem;
+}
+
+.whattsap{
+    display: flex;
+ justify-content: center;
+ justify-items: center;
+}
+
+.whattsap img.logo{
+    height: 42px;
+    justify-items: center;
+}
+
+.whattsap span.phone{
+    font-size: 25px;
+    font-weight: bold;
+    color: #5f0520;
+    top: 10%;
+}
+
+
+div.form{
+    position: relative;
+}
+
+div.form form{
+    position: absolute;
+    top:20% ;
+    left: 25%;
+}
+
+
+
